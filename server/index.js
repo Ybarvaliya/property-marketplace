@@ -11,6 +11,10 @@ app.use(express.json());
 
 connectToMongo();
 
+app.get('/', (req, res) =>{
+  res.send("hello")
+})
+
 app.post("/email", async (req, res) => {
   const { email } = req.body;
 
