@@ -1,0 +1,96 @@
+/* Frame 1261154592 */
+
+.con1{
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 598px;
+    height: 128px;
+    left: calc(50% - 598px/2);
+    top: 1627px;
+}
+
+.con1T{
+    
+    /* HOW IT WORKS? */
+    
+    width: 598px;
+    height: 80px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    /* Foundation/Dark Blue */
+    color: #071A45;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.con1T2{
+/* Step by Step Guide */
+
+width: 167px;
+height: 24px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+text-align: center;
+
+/* Foundation/Dark Blue */
+color: #071A45;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.th1{
+    /* Discover Your Perfect Home */
+
+width: 598px;
+height: 58px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+/* Foundation/Dark Blue */
+color: #071A45;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+
+

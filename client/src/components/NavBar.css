@@ -1,0 +1,24 @@
+/* Navigation Menu */
+
+/* Auto layout */
+.Nav{
+display: flex;
+align-items: flex-start;
+padding: 16px 24px;
+gap: 16px;
+color: white;
+
+position: absolute;
+width: 483px;
+height: 66px;
+left: calc(50% - 483px/2 - 0.5px);
+top: 40px;
+
+/* Foundation/Dark Blue
+
+Main Color
+*/
+background: #071A45;
+border-radius: 80px;
+}
+
