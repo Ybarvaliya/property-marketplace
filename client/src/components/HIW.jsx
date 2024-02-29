@@ -3,7 +3,8 @@ import img2 from "../Assets/h2.2.png";
 import img3 from "../Assets/h2.3.png";
 import img4 from "../Assets/h2.4.png";
 
-import './HIW.css'
+import "../style/HIW.css";
+
 
 const HIW = () => {
   return (

@@ -1,19 +1,15 @@
 import express from "express";
-import connectToMongo from "./db.js";
+import connectToMongo from "./config/db.js";
 import cors from "cors";
-import Email from "./emailModel.js";
+import Email from "./Models/emailModel.js";
 
 const app = express();
-const port = 8000;
-
-connectToMongo();
+const port = 5000;
 
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the XYZ Industries!");
-});
+connectToMongo();
 
 app.post("/email", async (req, res) => {
   const { email } = req.body;
@@ -35,5 +31,5 @@ app.post("/email", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`\n Server listening on port ${port}`);
+  console.log(`Server listening on port ${port}`);
 });

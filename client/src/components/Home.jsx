@@ -1,8 +1,9 @@
 import img from "../Assets/h1.png";
 
-import "./PONE.css";
+import "../style/Home.css";
 
-const PONE = () => {
+
+const Home = () => {
   return (
     <div className="justify-center text-center">
       <h1 className="t1">CONNECTING DREAMS TO REALITY</h1>
@@ -18,4 +19,4 @@ const PONE = () => {
   );
 };
 
-export default PONE;
+export default Home;

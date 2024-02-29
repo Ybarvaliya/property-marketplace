@@ -51,8 +51,7 @@
   color: white;
 }
 
-.vec {
-  width: 24px;
-  height: 24px;
-  border-radius: 16px;
+.btn:hover{
+  font-weight: bold;
 }
+

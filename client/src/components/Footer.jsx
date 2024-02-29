@@ -6,7 +6,8 @@ import {
   faInstagram,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Footer.css";
+import "../style/Footer.css";
+
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -19,7 +20,7 @@ const Footer = () => {
       return;
     }
     try {
-      const response = await fetch("http://localhost:8000/email", {
+      const response = await fetch("http://localhost:5000/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
