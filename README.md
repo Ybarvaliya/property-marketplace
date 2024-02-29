@@ -6,3 +6,5 @@
 4. Now, run "npm run dev".
 5. open another terminal and run command "npm install".
 6. Now, run "nodemon index.js"
+7. Go to browser and search "http://localhost:5173/"
+8. Hurray!
