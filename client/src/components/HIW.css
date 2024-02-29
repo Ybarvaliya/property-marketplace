@@ -1,20 +1,3 @@
-/* Frame 1261154592 */
-
-.con1 {
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-
-  position: absolute;
-  width: 598px;
-  height: 128px;
-  left: calc(50% - 598px / 2);
-  top: 1627px;
-}
-
 .con1T {
   /* HOW IT WORKS? */
 
@@ -37,6 +20,17 @@
   font-weight: 400;
   font-size: 20px;
   text-align: center;
+
+  color: #071a45;
+}
+
+.ct1{
+    /* Discover Your Perfect Home */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
 
   color: #071a45;
 }
@@ -66,13 +60,3 @@ color: rgba(7, 26, 69, 0.7);
   border-radius: 40px;
 }
 
-.ct1{
-    /* Discover Your Perfect Home */
-
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 44px;
-
-  color: #071a45;
-}

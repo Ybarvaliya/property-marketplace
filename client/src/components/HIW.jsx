@@ -7,11 +7,11 @@ import './HIW.css'
 
 const HIW = () => {
   return (
-    <div className="ml-[20%] w-[60%] my-20">
+    <div className="ml-[15%] w-[70%] my-20">
       <h1 className="con1T text-center">HOW IT WORKS?</h1>
       <h5 className="con1T2 text-center">Step by Step Guide</h5>
       <div className="flex my-10">
-        <img className="img mr-3" src={img1} alt="" />
+        <img className="img mr-10" src={img1} alt="" />
         <div className="">
           <h1 className="ct1"> Discover Your Perfect Home</h1>
           <p className="para">
@@ -31,10 +31,10 @@ const HIW = () => {
           </p>
           <a className="learn" href="">Learn More</a>
         </div>
-        <img className="img" src={img2} alt="" />
+        <img className="img ml-10" src={img2} alt="" />
       </div>
       <div className="flex my-10">
-        <img className="img mr-3" src={img3} alt="" />
+        <img className="img mr-10" src={img3} alt="" />
         <div>
           <h1 className="ct1">Connect and Communicate</h1>
           <p className="para">
@@ -53,7 +53,7 @@ const HIW = () => {
           </p>
           <a className="learn" href="">Learn More</a>
         </div>
-        <img className="img" src={img4} alt="" />
+        <img className="img ml-10" src={img4} alt="" />
       </div>
     </div>
   );

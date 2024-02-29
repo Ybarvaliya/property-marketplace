@@ -1,0 +1,59 @@
+.part1{
+background: #D6E9F0;
+
+}
+
+.part2{
+    background: linear-gradient(93.39deg, #C5D9E0 0.4%, #A7C8D7 49.33%, #9FC7D7 104.99%);
+}
+
+.he1 {
+  /* WHY CHOOSE XYZ? */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+
+  color: #071a45;
+}
+
+.he2 {
+  /* YOUR TRUSTED PARTNER IN THE FUTURE OF HOUSING */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #071a45;
+}
+
+.he3 {
+  /* Our partnerships with governments and local banks ensure that our housing prices are affordable enough for our target market. */
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #071a45;
+}
+
+.button {
+  padding: 16px 16px 16px 24px;
+  gap: 16px;
+
+  background: #3a7dff;
+  border-radius: 40px;
+  color: white;
+}
+
+
+
+
