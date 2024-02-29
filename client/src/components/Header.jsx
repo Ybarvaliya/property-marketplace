@@ -3,8 +3,8 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div className="flex justify-between">
-      <div className="logo">XYZ Industries</div>
+    <div className="flex justify-between mb-10 mt-3 mx-2">
+      <div className="logo"><span className="font-extrabold mr-2">XYZ</span><span className="italic">Industries</span> </div>
       <NavBar></NavBar>
       <div className="buttons">
         <button className="button1">Sign Up</button>
