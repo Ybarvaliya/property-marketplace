@@ -18,10 +18,10 @@ const WCX = () => {
         </div>
         <div className="he3">
           Our partnerships with governments and local banks ensure that our
-          housing prices 
+          housing prices
         </div>
         <div className="he3">are affordable enough for our target market.</div>
-        <button className="button mt-8 mb-3">Join Our Community Today 🡲</button>
+        <button className="button mt-8 mb-3">Join Our Community Today →</button>
         <img src={img2} className="h-[70%]" alt="" />
       </div>
     </div>

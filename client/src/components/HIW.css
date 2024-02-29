@@ -1,53 +1,39 @@
 .con1T {
-  /* HOW IT WORKS? */
-
   font-family: "Lato";
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
- 
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #071a45;
 }
 
 .con1T2 {
-  /* Step by Step Guide */
-
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-
   color: #071a45;
 }
 
-.ct1{
-    /* Discover Your Perfect Home */
-
+.ct1 {
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
   font-size: 34px;
-
   color: #071a45;
 }
 
-.para{
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-
-color: rgba(7, 26, 69, 0.7);
-
+.para {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(7, 26, 69, 0.7);
 }
 
-.learn{
-    /* Learn More */
+.learn {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -59,4 +45,3 @@ color: rgba(7, 26, 69, 0.7);
   height: 320px;
   border-radius: 40px;
 }
-
