@@ -20,7 +20,7 @@ const Footer = () => {
       return;
     }
     try {
-      const response = await fetch("https://property-marketplace-client-ten.vercel.app/email", {
+      const response = await fetch("https://property-marketplace-server-seven.vercel.app/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
